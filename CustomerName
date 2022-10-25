@@ -3,3 +3,8 @@ SELECT OrderID, CustomerID, CustomerName
 FROM Orders, Customers
 WHERE OrderID = 10310
 AND CustomerID = 77
+
+SELECT OrderID, CustomerID, CustomerName
+FROM Orders AS o, Customers AS c
+WHERE o.OrderID = 10310
+AND c.CustomerID = 77;
