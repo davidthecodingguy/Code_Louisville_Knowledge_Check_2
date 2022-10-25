@@ -1,7 +1,5 @@
 //Query to find Customer Name for order 10310
-SELECT OrderID, CustomerID
-FROM [Orders]
+SELECT OrderID, CustomerID, CustomerName
+FROM Orders, Customers
 WHERE OrderID = 10310
-SELECT CustomerID, CustomerName
-FROM [Customers]
-WHERE CustomerID = 77
+AND CustomerID = 77
