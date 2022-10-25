@@ -2,3 +2,6 @@
 SELECT OrderID, CustomerID
 FROM [Orders]
 WHERE OrderID = 10310
+SELECT CustomerID, CustomerName
+FROM [Customers]
+WHERE CustomerID = 77
