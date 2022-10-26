@@ -1,4 +1,4 @@
-//Easy-to-read version of the query to find Customer Name for order 10310
+//Version of the query input to W3 Schools to find Customer Name for order 10310
 SELECT CustomerName, c.CustomerID, OrderID, Address
 FROM Orders, Customers AS c
 WHERE OrderID = 10310
