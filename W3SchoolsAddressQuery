@@ -1,4 +1,4 @@
-//Easy-to-read version of the query to select the Address for the Supplier of ProductID 40
+//Version of the query input to W3 Schools to select the Address for the Supplier of ProductID 40
 SELECT SupplierName, ProductName, Address, ProductID, s.SupplierID
 FROM Products, Suppliers AS s
 WHERE ProductID = 40
