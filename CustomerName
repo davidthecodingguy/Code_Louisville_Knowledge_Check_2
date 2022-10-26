@@ -1,15 +1,4 @@
 //Query to find Customer Name for order 10310
-SELECT OrderID, CustomerID, CustomerName
-FROM Orders, Customers
-WHERE OrderID = 10310
-AND CustomerID = 77
-
-SELECT OrderID, CustomerID, CustomerName
-FROM Orders AS o, Customers AS c
-WHERE o.OrderID = 10310
-AND c.CustomerID = 77;
-
-//this one seems to work
 SELECT OrderID, c.CustomerID, CustomerName
 FROM Orders, Customers AS c
 WHERE OrderID = 10310
