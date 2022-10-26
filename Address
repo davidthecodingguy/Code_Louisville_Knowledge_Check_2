@@ -1,3 +1,4 @@
+//Query to select the Address for the Supplier of ProductID 40
 SELECT SupplierName, ProductName, Address, ProductID, s.SupplierID
 FROM Products, Suppliers AS s
 WHERE ProductID = 40
