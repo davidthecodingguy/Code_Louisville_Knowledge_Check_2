@@ -1,1 +1,3 @@
-
+SELECT ProductID, SupplierID, Address
+FROM Suppliers, Products
+WHERE ProductID = 40
