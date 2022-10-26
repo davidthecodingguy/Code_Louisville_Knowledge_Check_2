@@ -1,4 +1,4 @@
-//Query to find Customer Name for order 10310
+//Easy-to-read version of the query to find Customer Name for order 10310
 SELECT CustomerName, c.CustomerID, OrderID, Address
 FROM Orders, Customers AS c
 WHERE OrderID = 10310
