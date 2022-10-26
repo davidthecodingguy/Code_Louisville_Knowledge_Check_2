@@ -1,4 +1,4 @@
-SELECT SupplierName, Address, ProductID, s.SupplierID
+SELECT SupplierName, ProductName, Address, ProductID, s.SupplierID
 FROM Products, Suppliers AS s
 WHERE ProductID = 40
 AND s.SupplierID = 19;
